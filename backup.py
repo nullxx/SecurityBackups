@@ -31,8 +31,8 @@ current_time = now.strftime("%Y-%m-%d_%H:%M:%S")
 PATH = "/root/backup/"
 
 FILENAME = "SEC-COPY__" + current_time + ".tar.gz"
-LOG_FILE_NAME = "SEC-COPY__" + current_time
-LOGFILE_PATH = PATH + LOG_FILE_NAME + ".log"
+LOG_FILE_NAME = "SEC-COPY__" + current_time + ".log"
+LOGFILE_PATH = PATH + LOG_FILE_NAME 
 FULLPATH = PATH + FILENAME
 DESTINATION_FOLDER_ID = "<FOLDER_ID>"
 MAIL = "mail@example.com"
