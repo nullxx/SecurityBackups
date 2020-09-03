@@ -28,7 +28,7 @@ def sendMail(mail, htmlContent):
 now = datetime.now()
 current_time = now.strftime("%Y-%m-%d_%H:%M:%S")
 
-PATH = "/root/backup/"
+PATH = os.getcwd()
 
 FILENAME = "SEC-COPY__" + current_time + ".tar.gz"
 LOG_FILE_NAME = "SEC-COPY__" + current_time + ".log"
